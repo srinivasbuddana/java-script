@@ -1,0 +1,8 @@
+var inlineEditTax;
+(function($) {
+inlineEditTax = {
+
+	init : function() {
+		var t = this, row = $('#inline-edit');
+
+		t.type = $('#the-list').attr('data-wp-lists').substr(5);
